@@ -3,7 +3,7 @@ Working thru Generative AI with LangChain
 
 I would make sure I set up my environment with [uv from astral](https://astral.sh/blog/uv-unified-python-packaging). You could also use pip, conda, poetry, or docker!
 
-I would also creat a .env file to store my API keys and make sure to include a .gitignore file that would exclude your .env from being added to your Git repository.
+I would also creat a `.env` file to store my API keys and make sure to include a `.gitignore` file that would exclude my `.env` from being added to my Git repository.
 ```python
 # .env
 OPENAI_API_KEY="your-openai-api-key"
