@@ -1,9 +1,11 @@
 # langchain-generative-ai
 Working thru Generative AI with LangChain
 
-I am following thru the book, [Generatiive AI with Langchain](https://github.com/benman1/generative_ai_with_langchain) by Ben Auffarth. I am using the book to learn how to use OpenAI's GPT-3 and Huggingface's Transformers to create a chatbot. I am also using the book to learn how to use the OpenAI API and the Huggingface Hub API.
+I am following thru the book, [Generatiive AI with Langchain](https://github.com/benman1/generative_ai_with_langchain) by Ben Auffarth. I am using the book to understand further how to use OpenAI's GPT-3 and Huggingface's Transformers to create chatbots and everything else they offer.
 
-Here is how I would setup my environment to work thru the book. Mine has a lil more twist to it because I am using a different environment manager, to manage my environment.
+## Setting up the environment
+
+Here is how I would setup my environment to work thru the book. Mine has a lil twist to it because I am using a different environment manager, to manage my environment.
 
 I would make sure I set up my environment with [uv from astral](https://astral.sh/blog/uv-unified-python-packaging). You could also use pip, conda, poetry, or docker!
 
