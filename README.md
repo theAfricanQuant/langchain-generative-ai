@@ -3,6 +3,8 @@ Working thru Generative AI with LangChain
 
 I am following thru the book, [Generatiive AI with Langchain](https://github.com/benman1/generative_ai_with_langchain) by Ben Auffarth. I am using the book to understand further how to use OpenAI's GPT-3 and Huggingface's Transformers to create chatbots and everything else they offer.
 
+This is not a comprehensive guide to the book, but a way to document my journey thru the book and the things I learn along the way. You may need to purchase your own copy to get the full experience. I may start something and get tired or bored or uninterested and you might be left wondering what happened. I am not obligated to finish the book or the project. I am doing this for fun and to learn something new. Especially since I have a similar project looking me in the eye to complete
+
 ## Setting up the environment
 
 Here is how I would setup my environment to work thru the book. Mine has a lil twist to it because I am using a different environment manager, to manage my environment.
