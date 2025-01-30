@@ -12,12 +12,18 @@ or on Hugging Face Spaces. For Streamlit Community Cloud do this:
 """
 
 import streamlit as st
+import sys
+# from pathlib import Path
+
+# # Add the project root to PYTHONPATH
+# sys.path.append(str(Path(__file__).parent.parent.parent.parent))
+
 from langchain_community.callbacks.streamlit import (
     StreamlitCallbackHandler,
 )
 
-from question_and_answer.agent import load_agent
-from question_and_answer.utils import MEMORY
+from agent import load_agent
+from utils import MEMORY
 
 st.set_page_config(page_title="LangChain Question Answering", page_icon=":robot:")
 st.header("Ask a research question!")
@@ -61,3 +67,8 @@ if prompt := st.chat_input(placeholder="Ask me anything!"):
         st_callback = StreamlitCallbackHandler(st.container())
         response = agent_chain.invoke({"input": prompt}, {"callbacks": [st_callback]})
         st.write(response["output"])
+
+
+import os
+
+print(os.getcwd())

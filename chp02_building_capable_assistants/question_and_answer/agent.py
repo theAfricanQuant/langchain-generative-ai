@@ -12,7 +12,9 @@ from langchain_experimental.plan_and_execute import (
 )
 from langchain_openai import ChatOpenAI
 
-from question_and_answer.tool_loader import load_tools
+from chp02_building_capable_assistants.question_and_answer.tool_loader import (
+    load_tools,
+)
 from config import set_environment
 
 set_environment()
