@@ -1,7 +1,7 @@
 # langchain-generative-ai
 Working thru Generative AI with LangChain
 
-I am following thru the book, [Generatiive Ai with Langchain by Ben Auffarth](https://github.com/benman1/generative_ai_with_langchain). I am using the book to learn how to use OpenAI's GPT-3 and Huggingface's Transformers to create a chatbot. I am also using the book to learn how to use the OpenAI API and the Huggingface Hub API.
+I am following thru the book, [Generatiive AI with Langchain](https://github.com/benman1/generative_ai_with_langchain) by Ben Auffarth. I am using the book to learn how to use OpenAI's GPT-3 and Huggingface's Transformers to create a chatbot. I am also using the book to learn how to use the OpenAI API and the Huggingface Hub API.
 
 Here is how I would setup my environment to work thru the book. Mine has a lil more twist to it because I am using a different environment manager, to manage my environment.
 
@@ -11,7 +11,7 @@ I would also creat a `.env` file to store my API keys and make sure to include a
 ```python
 # .env
 OPENAI_API_KEY="your-openai-api-key"
-HUGGINGFACEHUB_API_TOKEN="your-huggingface-api-token"
+HUGGINGFACEHUB_API_TOKEN="your-huggingfacehub-api-token"
 ```
 
 You can set up the keys for the different providers with a config.py like this:
